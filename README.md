@@ -23,15 +23,15 @@ This exercise is meant showcase your creativity and talent in problem solving ag
 * node.js (v0.10.x) -> http://nodejs.org/ 
 
 ## My Submission:
- clone down repository 
+* Clone down the repository:
  
  ```git clone https://github.com/bdjones2410/ACMEiJoinTest.git```
  
- install dependencies 
+* Install dependencies: 
  
- ```npm install ``` from root directory
+ ```npm install ```
  
- serve the project
+* Serve the project
  
  nodemon: ```nodemon server.js```
  
