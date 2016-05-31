@@ -29,7 +29,7 @@ This exercise is meant showcase your creativity and talent in problem solving ag
  
  install dependencies 
  
- ```npm install ``` from ijoin directory
+ ```npm install ``` from root directory
  
  serve the project
  
