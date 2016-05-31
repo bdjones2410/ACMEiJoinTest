@@ -1,0 +1,88 @@
+<!-- Main Profile View -->
+
+<div class="upper-banner">
+  <img src="assets/acme-banner.png" class="img-responsive" alt="">
+  <span class="upper-financial">Financial</span>
+</div>
+<div ng-hide="UserCtrl.editMode" class="main-view">
+  <div class="lower-wrapper">
+    <span class="welcome-name">
+      Welcome {{UserCtrl.USER_DATA.name.first}} {{UserCtrl.USER_DATA.name.last}}
+    </span>
+    <div class="current-balance">
+      <span>Current Balance:</span>
+      <span class="user-balance">
+        {{UserCtrl.USER_DATA.balance}}
+      </span>
+    </div>
+    <div class="upper-profile">
+        <div class="left-pic">
+          <img ng-src="{{UserCtrl.USER_DATA.picture}}" alt="">
+        </div>
+        <div class="right-info">
+          <p class="profile-upper-info">
+            Age: {{UserCtrl.USER_DATA.age}}
+            <br>
+            Eye Color: {{UserCtrl.USER_DATA.eyeColor}}
+            <br>
+            Company: {{UserCtrl.USER_DATA.company}}
+          </p>
+        </div>
+    </div>
+    <div class="lower-info">
+      <p class="profile-upper-info">
+        Email: {{UserCtrl.USER_DATA.email}}
+        <br>
+        Phone: {{UserCtrl.USER_DATA.phone}}
+        <br>
+        Address: {{UserCtrl.USER_DATA.address}}
+      </p>
+    </div>
+  </div>
+  <div class="buttons-container">
+    <button ng-click="UserCtrl.toggleEdit()" class="btn btn-info btn-block">Edit My Details</button>
+    <button class="btn btn-danger btn-block" ng-click="UserCtrl.Logout()">LOGOUT</button>
+  </div>
+</div>
+
+<!-- Edit View -->
+
+<div ng-show="UserCtrl.editMode"class="edit-view">
+  <form>
+    <div class="form-group col-xs-12">
+      <label for="FirstName">FirstName</label>
+      <input type="text" name="FirstName" class="form-control" ng-model="UserCtrl.USER_DATA.name.first">
+    </div>
+    <div class="form-group col-xs-12">
+      <label for="LastName">Last Name</label>
+      <input type="text" name="LastName" class="form-control" ng-model="UserCtrl.USER_DATA.name.last">
+    </div>
+    <div class="form-group col-xs-6">
+      <label for="Age">Age</label>
+      <input type="text" name="Age" class="form-control"ng-model="UserCtrl.USER_DATA.age">
+    </div>
+    <div class="form-group col-xs-6">
+      <label for="eyeColor">Eye Color</label>
+      <input type="text" name="eyeColor" class="form-control" ng-model="UserCtrl.USER_DATA.eyeColor">
+    </div>
+    <div class="form-group col-xs-12">
+      <label for="Company">Company</label>
+      <input type="text" name="Company" class="form-control" ng-model="UserCtrl.USER_DATA.company">
+    </div>
+    <div class="form-group col-xs-12">
+      <label for="Email">Email</label>
+      <input type="text" name="Email" class="form-control" ng-model="UserCtrl.USER_DATA.email">
+    </div>
+    <div class="form-group col-xs-12">
+      <label for="Phone">Phone</label>
+      <input type="text" name="Phone" class="form-control" ng-model="UserCtrl.USER_DATA.phone">
+    </div>
+    <div class="form-group col-xs-12">
+      <label for="Address">Address</label>
+      <textarea rows="3" type="text" name="Address" class="form-control" ng-model="UserCtrl.USER_DATA.address"></textarea>
+    </div>
+    <div class="edit-button-container">
+      <button ng-click="UserCtrl.SaveInfo()" class="btn btn-info btn-block">Save</button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,25 @@
+{
+  "name": "ijoin",
+  "description": "The savvy cats over at ACME Financial would like to be able to allow users to login to their account, check their balance and update their personal details. Write a simple web application (API and UI) using node.js and lowdb that lets users accomplish those tasks.",
+  "main": "index.js",
+  "authors": [
+    "Brandon Jones <bdjones2410@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "lodash": "^4.13.1",
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5",
+    "angular-messages": "^1.5.5"
+  }
+}

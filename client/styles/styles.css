@@ -1,0 +1,102 @@
+/**************************************
+          OVERALL
+**************************************/
+* {
+  box-sizing: border-box;
+  font-family: Arial; }
+
+.btn-custom {
+  width: 100%; }
+
+.inner-container {
+  position: relative;
+  background-color: #ebebeb;
+  margin: 0 auto;
+  width: 385px;
+  min-height: 650px; }
+
+/**************************************
+          LOGIN STYLES
+**************************************/
+.login-wrapper {
+  height: 100%;
+  width: 100%;
+  padding: 20px 90px; }
+  .login-wrapper .upper-header {
+    position: relative;
+    background: white;
+    border-radius: 50px;
+    border: 2px solid black;
+    padding: 27px 15px 0px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 40px; }
+    .login-wrapper .upper-header span {
+      position: absolute;
+      top: 50%;
+      right: 27%;
+      font-size: 1.7em; }
+
+/**************************************
+          USER PROFILE
+**************************************/
+.upper-banner {
+  background-color: #0246A6;
+  text-align: center;
+  padding: 10px; }
+  .upper-banner img {
+    display: block;
+    margin: 0 auto; }
+  .upper-banner .upper-financial {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold; }
+
+.lower-wrapper {
+  padding: 15px; }
+  .lower-wrapper .welcome-name {
+    font-weight: bold;
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid darkgrey; }
+  .lower-wrapper .current-balance {
+    text-align: center;
+    padding: 15px 0px 10px;
+    border-bottom: 1px solid darkgrey;
+    font-weight: bold;
+    font-size: 1.2em; }
+    .lower-wrapper .current-balance span {
+      display: block; }
+  .lower-wrapper .upper-profile {
+    padding: 15px 0px; }
+    .lower-wrapper .upper-profile .left-pic {
+      display: inline-block;
+      vertical-align: top; }
+      .lower-wrapper .upper-profile .left-pic img {
+        padding: 0px;
+        border: 2px solid #424242;
+        border-radius: 20px;
+        width: 110px;
+        height: 110px; }
+    .lower-wrapper .upper-profile .right-info {
+      display: inline-block;
+      padding: 0 15px;
+      vertical-align: top; }
+  .lower-wrapper .profile-upper-info {
+    line-height: 2;
+    font-weight: bold;
+    font-size: 1.1em; }
+
+.buttons-container {
+  padding: 0 15px;
+  position: absolute;
+  width: 100%;
+  bottom: 15px; }
+
+/**************************************
+          EDIT PAGE
+**************************************/
+.edit-button-container {
+  padding: 20px 15px;
+  width: 100%;
+  bottom: 15px; }
