@@ -36,6 +36,7 @@
       };
 
       //thanks W3 schools for this function.
+      //http://www.w3schools.com/js/js_cookies.asp
       const getCookie = (cName)=>{
         var name = cName + "=";
         var ca = document.cookie.split(';');
