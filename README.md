@@ -24,10 +24,16 @@ This exercise is meant showcase your creativity and talent in problem solving ag
 
 ## My Submission:
  clone down repository 
+ 
  ```git clone https://github.com/bdjones2410/ACMEiJoinTest.git```
+ 
  install dependencies 
+ 
  ```npm install ``` from ijoin directory
+ 
  serve the project
+ 
  nodemon: ```nodemon server.js```
+ 
  node: ``` node server.js```
  
