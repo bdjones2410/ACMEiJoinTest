@@ -22,8 +22,12 @@ This exercise is meant showcase your creativity and talent in problem solving ag
 * lowdb (DB) -> https://github.com/typicode/lowdb
 * node.js (v0.10.x) -> http://nodejs.org/ 
 
-## Bonus Points
-
-* Fully responsive UI
-* Unit Tests of the API
-* Functional Tests of the UI
+## My Submission:
+ clone down repository 
+ ```git clone https://github.com/bdjones2410/ACMEiJoinTest.git```
+ install dependencies 
+ ```npm install ``` from ijoin directory
+ serve the project
+ nodemon: ```nodemon server.js```
+ node: ``` node server.js```
+ 
